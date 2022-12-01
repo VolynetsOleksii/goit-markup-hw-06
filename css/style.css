@@ -414,7 +414,7 @@ input, textarea {
   gap: 10px;
 }
 .footer-soc-block {
-  margin-right: 93px;
+  margin-right: auto;
 }
 .soc-header {
   margin-bottom: 20px;
@@ -422,6 +422,9 @@ input, textarea {
   text-transform: uppercase;
   color: var(--secondary-text-color);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.footers .contacts-icon {
+  fill: var(--secondary-text-color);
 }
 .footers .contacts-link {
   background-color: rgba(255, 255, 255, 0.1);
@@ -444,6 +447,7 @@ input, textarea {
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  color: var(--primary-text-color);
   background-color: transparent;
 }
 .send-input::placeholder {
@@ -544,7 +548,7 @@ input, textarea {
   fill: var(--accent-color);
 }
 .modal-input {
-  height: 58px;
+  height: 40px;
 }
 .modal-textarea {
   height: 120px;
